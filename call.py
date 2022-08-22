@@ -83,7 +83,6 @@ def mass_start():
 			else:
 				print ("")
 				print (W+"   Result "+Fore.RED+": "+B+"Spam Has Reached Limit Please Try Again After 1 Hour"+Fore.RED+" | "+U+nice)
-				time.sleep(8)
 	except requests.exceptions.ConnectionError:
 		sys.exit(W+"Disconnected Network "+Y+"Connection"+W+". Please Try Again.")
 	except FileNotFoundError:
